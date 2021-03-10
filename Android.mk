@@ -18,15 +18,4 @@ LOCAL_PATH := $(call my-dir)
 
 ifneq ($(filter bretzel,$(TARGET_DEVICE)),)
 
-include $(CLEAR_VARS)
-LOCAL_MODULE := CameraGo
-LOCAL_MODULE_OWNER := ulefone
-LOCAL_SRC_FILES := proprietary/app/CameraGo/CameraGo.apk
-LOCAL_CERTIFICATE := PRESIGNED
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
-LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-include $(BUILD_PREBUILT)
-
 endif

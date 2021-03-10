@@ -41,7 +41,6 @@ PRODUCT_COPY_FILES += \
     vendor/ulefone/bretzel/proprietary/lib64/libstnfc_nci_jni.so:system/lib64/libstnfc_nci_jni.so
     	
 PRODUCT_PACKAGES += \
-    CameraGo \
     Nfc_st \
     com.st.android.nfc_dta_extensions \
     com.st.android.nfc_extensions
