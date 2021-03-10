@@ -18,7 +18,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/ulefone/
 
 PRODUCT_COPY_FILES += \
-    vendor/ulefone/bretzel/proprietary/bin/netd:system/bin/netd \
     vendor/ulefone/bretzel/proprietary/bin/kpoc_charger:system/bin/kpoc_charger \
     vendor/ulefone/bretzel/proprietary/etc/init/kpoc_charger.rc:system/etc/init/kpoc_charger.rc \
     vendor/ulefone/bretzel/proprietary/lib/libshowlogo.so:system/lib/libshowlogo.so \
